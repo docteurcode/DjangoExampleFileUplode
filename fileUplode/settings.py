@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '8v1-05*a@vhj$p#4br%co(se)_ce@mtd8o9n(vo_ypbwyn51j*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['app.controlevehicule.org']
 
 
 # Application definition

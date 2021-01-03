@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page d'enregistrement</title>
+</head>
+<body>
+
+	<form method="POST" enctype="multipart/form-data">
+		{% csrf_token %}
+		<label for="input">File Upload</label>
+		<input type="file" name="file">
+		<br>
+		<button type="submit">Save</button>
+	</form>
+
+</body>
+</html>
